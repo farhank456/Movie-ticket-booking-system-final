@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const form=document.getElementById('bookingForm');if(form){form.addEventListener('submit',e=>{if(!document.querySelectorAll('input[name="seatIds"]:checked').length){e.preventDefault();alert('Please select at least one seat.');}})}});
